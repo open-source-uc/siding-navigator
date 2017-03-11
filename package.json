@@ -1,0 +1,34 @@
+{
+  "name": "siding-navigator",
+  "version": "1.0.0",
+  "description": "SIDING authentication and navigation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasalatart/siding-navigator.git"
+  },
+  "keywords": [
+    "siding",
+    "authentication",
+    "navigation"
+  ],
+  "author": "Sebastián Salata Ruiz-Tagle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sasalatart/siding-navigator/issues"
+  },
+  "homepage": "https://github.com/sasalatart/siding-navigator#readme",
+  "dependencies": {
+    "request": "^2.80.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.17.1",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.2.0"
+  }
+}
