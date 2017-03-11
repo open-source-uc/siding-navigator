@@ -40,6 +40,10 @@
       // hemos navegado hacia el calendario de la sección 1 de Optimización (2015-1)
       // 7201 corresponde al ID del ramo (se puede encontrar en SIDING).
     });
+
+    navigator.visit('una-url-válida-del-SIDING').then(res => {
+      // hemos navegado hacia una URL válida del SIDING
+    });
   });
 ```
 

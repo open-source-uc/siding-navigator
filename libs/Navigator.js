@@ -5,6 +5,10 @@ class Navigator {
     this.request = request;
   }
 
+  visit(url) {
+    return this.visitPromise(url);
+  }
+
   index() {
     return this.visitPromise(urls.indexPath);
   }
