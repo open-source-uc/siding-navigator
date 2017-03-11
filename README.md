@@ -50,3 +50,5 @@
 3. Hacer *commit* a los cambios (`git commit -am 'add my feature'`)
 4. Hacer *push* a la rama creada (`git push origin my-new-feature`)
 5. Crear una nueva *Pull Request*
+
+**Nota:** Se debe considerar que los *tests* requieren un **usuario** y **contraseña** para funcionar. Para ello se debe contar con las variables de entorno `SIDING_USERNAME` y `SIDING_PASSWORD`.
