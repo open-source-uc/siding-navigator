@@ -1,5 +1,8 @@
 # SIDING Navigator
 
+[![npm version](https://badge.fury.io/js/siding-navigator.svg)](https://badge.fury.io/js/siding-navigator)
+[![dependencies](https://david-dm.org/sasalatart/siding-navigator.svg)](https://david-dm.org/sasalatart/siding-navigator)
+
 *Wrapper* para autenticarse en el SIDING y navegar a través de sus URLs más comunes.
 
 ### Instalación
