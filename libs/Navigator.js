@@ -35,7 +35,7 @@ class Navigator {
 
   visitPromise(url) {
     return new Promise((ressolve, reject) => {
-      this.request({url: url}, (err, res, body) => {
+      this.request({url: url, encoding: null}, (err, res, body) => {
         if (!err && res.statusCode === 200) {
           ressolve(res);
         } else {
