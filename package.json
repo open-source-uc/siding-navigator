@@ -1,6 +1,6 @@
 {
   "name": "siding-navigator",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "SIDING authentication and navigation.",
   "main": "index.js",
   "scripts": {
